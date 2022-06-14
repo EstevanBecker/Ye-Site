@@ -1,0 +1,101 @@
+ .Pergunta{
+    font-size: x-large;
+    color: black  ;
+    font-family: Arial, Helvetica, sans-serif;
+    font: arial;
+    text-align: justify;
+}
+
+#ihate {
+    color: purple;
+    font-size: xx-large;
+    text-align: center;
+    }
+
+.resposta {
+    font-size: larger;
+    color: black;   
+    font-family: Arial, Helvetica, sans-serif;
+    font: Arial;
+    text-align: justify;
+    width: 80%;
+  
+}
+
+.musica{
+    font-size: large;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    width: 30%;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.imagem {
+    align-items: center;
+    border: solid black;
+    width: 40%;
+    vertical-align: center;
+    overflow: hidden;
+}
+
+.titulo {
+    font-size: xx-large;
+    text-shadow: purple;
+    text-decoration: underline black;
+}
+
+.next{
+    background-color: black;
+    color: white;   
+    text-decoration: none;
+    padding: 10px 30px;
+    float: right;
+}
+
+.albuns {
+    margin-right: 0px;
+    max-width: 300px;
+    display: inline-table;
+    text-align: center;
+}
+
+.imagensalbuns {
+    width: 80%;
+    border: solid black;
+    max-width: 300px;
+}
+
+#my {
+    font-size: large;
+    color: black;   
+    font-family: Arial, Helvetica, sans-serif;
+    font: Arial;
+    width: 100%;
+    text-align: center;
+}
+ .menu{
+     display: inline;
+ }
+
+ .menu a {
+    color: white;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    background-color: grey;
+ }
+
+ #img {
+     width: 80px;
+     overflow: auto;
+ }
+
+ .voltar {
+     background-color: black;
+     text-decoration: none;
+     padding: 10px 30px;
+     float: left;
+     color: white;
+ }
