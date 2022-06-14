@@ -1,4 +1,4 @@
-function funcao2 () {
+function funcao2() {
     document.write("Marcelos");
 }
 
