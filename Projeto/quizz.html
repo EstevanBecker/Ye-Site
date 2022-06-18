@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz</title>
+    <link rel="stylesheet" href="/Assets/CSS/estilo.css">
+    <style>
+        body {
+            background-color: rgb(9, 6, 15);
+            color: white;
+            font: normal 18pt Arial;
+        }
+
+        .logo {
+            width: 880px;
+            align-content: center;
+            margin-left: 400px;
+        }
+
+        #cudi {
+            width: 90%;
+            padding: 100px;
+            padding-top: 0px;
+            padding-right: 100px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1> Quizz do Ye </h1>
+    <img class="logo" src="/Assets/Imagens/logo.png"> </br>
+    <img id="cudi" src="/Assets/Imagens/180508-stero-cudi-kanye-tease_w0vnn4.jpg">
+    <script>
+        let Nome = String(window.prompt('Digite seu nome'))
+        let Album = String(window.prompt('Digite seu album favorito'));
+        let Musica = String(window.prompt('Digite sua musica favorita:'));
+        document.write(`Olá. ${Nome}, Bem vindo ao Quizz do Ye </br>`)
+        document.write(`Seu album favorito é ${Album}. </br>`)
+        document.write(`Sua música favorita é ${Musica}.</br>`)
+    </script>
+    <h4 id="ihate">
+        I Hate Being Bi-Polar its Awesome
+    </h4>
+    <img src="/Assets/Imagens/1200px-Sunday_Service_At_The_Mountain.svg.png" width="100px" align="right"
+        valign="bottom">
+    <footer text-align="center"> &copy; Kanye West </footer>
+</body>
+
+</html>
