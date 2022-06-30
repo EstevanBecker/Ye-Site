@@ -29,4 +29,24 @@ var YeQuestions = [
         },
         correctAnswer: 'a'
     },
+    {
+        question: 'Qual o nome da mãe de Ye',
+        answers: {
+            a: 'Hillary Clinton',
+            b: 'Jorge',
+            c: 'Kim Kardashian',
+            d: 'Donda'
+        },
+        correctAnswer: 'd'
+    },
+    {
+        question: 'Kanye West ficou muito famoso ao popularizar um certo instrumento para auxilio vocal muito utilizado hoje em dia, qual o nome deste instrumento?',
+        answers: {
+            a: 'gaita de boca',
+            b: 'Autotune',
+            c: 'FL Studio',
+            d: 'Alguma coisa ai.'
+        },
+        correctAnswer: 'b'
+    }
 ];
