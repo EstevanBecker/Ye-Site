@@ -1,4 +1,4 @@
-var YeQuestions = [
+var yeQuestions = [
     {
         question: "Qual a idade de Ye?",
         answers: {
@@ -50,3 +50,13 @@ var YeQuestions = [
         correctAnswer: 'b'
     }
 ];
+
+const quizContainer = document.getElementById ('quiz')
+const resultadoContainer = document.getElementById ('results')
+const submitButton = document.getElementById ('submit')
+ 
+generateQuiz(yeQuestions, quizContainer, resultadoContainer, submitButton) {
+    function showQuestions (yeQuestions, quizContainer)
+    
+}
+
