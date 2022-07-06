@@ -48,6 +48,17 @@ const yeQuestions = [
             d: 'Alguma coisa ai.'
         },
         correctAnswer: 'b'
+    },
+    {
+        question: 'Matheus Resende?',
+        answers: {
+            a: 'M.R',
+            b: 'P.V',
+            c: 'R.F',
+            d: 'A.B.M',
+            e: 'RoDrigo Pires'
+        },
+        correctAnswer: 'a'
     }
 ];
 
